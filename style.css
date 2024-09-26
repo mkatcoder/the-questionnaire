@@ -90,3 +90,30 @@ label[for="phone"] {
 label[for="phone"] i {
   cursor: pointer;
 }
+
+.success {
+  background-color: #06B000; 
+  text-align: center; 
+  margin-top: 20px; 
+  padding: 10px; 
+  border-radius: 5px;
+  color: white;
+  position: fixed; 
+  left: 50%; 
+  transform: translateX(-50%);
+  bottom: 60px; 
+}
+
+.failure {
+  background-color: #d65fa2; 
+  text-align: center; 
+  margin-top: 20px; 
+  padding: 10px; 
+  border-radius: 5px;
+  color: white;
+  position: fixed; 
+  left: 50%; 
+  transform: translateX(-50%);
+  bottom: 60px; 
+}
+
